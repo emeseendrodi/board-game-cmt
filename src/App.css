@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    color: #153243;
+    margin: 1em auto;
+    height: 70vh;
+    width: 70%;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #c2c3c1;
+}
+
+.container h1{
+    margin-bottom: 2em;
+}
+
+@media (min-width: 901px) {
+    .container {
+        height: 70vh;
+        width: 35vw;
+    }
+  }

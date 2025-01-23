@@ -1,0 +1,64 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(5, 3em); 
+    grid-template-rows: repeat(5, 3em);   
+    gap: 5px; 
+    background-color: #153243;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.cell {
+    background-color: #284B63;
+    border: 1px solid #F4F9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none; 
+  }
+
+  .cell:not(.filled-cell):hover {
+    background-color: #c2c3c1; 
+  }
+  
+  .filled-cell {
+    background-color: #f4f9e9; 
+    cursor: default; 
+  }
+
+.controls {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.controls button {
+  padding: 0.5em 1em;
+  font-size: 16px;
+  background-color: #284b63;
+  color: #f4f9e9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #153243;
+}
+
+.line-c {
+  color: green;
+}
+
+.line-m {
+  color: blue;
+}
+
+.line-t {
+  color: red;
+}
