@@ -51,6 +51,21 @@
   background-color: #153243;
 }
 
-.controls p{
-  font-size: 14px;
+.message{
+  font-size: 16px;
+  margin-top: 1em;
+}
+.highlight-c {
+ color: green;
+  
+}
+
+.highlight-m {
+ color: blue;
+  
+}
+
+.highlight-t {
+  color: red;
+  
 }
