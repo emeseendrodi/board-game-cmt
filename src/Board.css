@@ -51,14 +51,6 @@
   background-color: #153243;
 }
 
-.line-c {
-  color: green;
-}
-
-.line-m {
-  color: blue;
-}
-
-.line-t {
-  color: red;
+.controls p{
+  font-size: 14px;
 }
