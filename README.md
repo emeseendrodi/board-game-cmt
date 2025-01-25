@@ -18,7 +18,9 @@ To check if Node.js and npm are installed, run the following commands in your te
 If these commands return version numbers, you're ready to proceed. If not, follow these steps:
 
 Go to the Node.js download page.
+
 Download and install the LTS (Long-Term Support) version, as it is more stable and recommended for most projects.
+
 During installation, ensure that npm is selected (it is included by default with Node.js).
 
 ## Installation Instructions
