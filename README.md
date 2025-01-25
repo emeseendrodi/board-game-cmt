@@ -5,7 +5,7 @@
 ## Project Description
 This is a browser-based board game implemented in React. The goal is to fill a 5x5 table by clicking cells in a round-robin manner (C, M, T). The game highlights consecutive lines of 3 or more identical characters and displays the score at the end.
 
-## Prerequisites
+## requirements
 Before running the project, make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (version 16 or later recommended)
 - npm (comes bundled with Node.js)
