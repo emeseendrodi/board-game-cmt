@@ -1,6 +1,6 @@
 # board-game-cmt
  
-# The Game - 5x5 Interactive Board Game
+# CMT Board Game 
 
 ## Project Description
 This is a browser-based board game implemented in React. The goal is to fill a 5x5 table by clicking cells in a round-robin manner (C, M, T). The game highlights consecutive lines of 3 or more identical characters and displays the score at the end.
