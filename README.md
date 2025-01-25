@@ -11,7 +11,6 @@ Before running the project, make sure you have the following installed:
 - npm (comes bundled with Node.js)
 
 To check if Node.js and npm are installed, run the following commands in your terminal
-    ```bash
 
     node -v
     npm -v
