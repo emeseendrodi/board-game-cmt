@@ -12,6 +12,7 @@ Before running the project, make sure you have the following installed:
 
 To check if Node.js and npm are installed, run the following commands in your terminal:
     ```bash
+    
     node -v
     npm -v
 
@@ -25,6 +26,7 @@ Installing Node.js and npm
 ## Installation Instructions
 1. Clone this repository:
    ```bash
+
    git clone https://github.com/emeseendrodi/board-game-cmt
 2. Navigate to the project directory:
     ```bash
