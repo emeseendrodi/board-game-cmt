@@ -8,11 +8,11 @@ This is a browser-based board game implemented in React. The goal is to fill a 5
 ## Installation Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/the-game.git
+   git clone https://github.com/emeseendrodi/board-game-cmt
 2. Navigate to the project directory:
     ```bash
 
-    cd the-game
+    cd board-game-cmt
 
 3. Install dependencies:
     ```bash
@@ -20,6 +20,6 @@ This is a browser-based board game implemented in React. The goal is to fill a 5
     npm install
 4. Start the development server:
     ```bash
-    npm start
+    npm run dev
 
-5. Open the application in your browser at http://localhost:3000.
+5. Open the application in your browser at http://localhost:5173/

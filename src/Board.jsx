@@ -9,10 +9,12 @@ export default function Board() {
 
   const characters = ["C", "M", "T"];
 
+  // Checks for horizontal, vertical, and diagonal lines of 3 or more identical characters
   const checkLines = (board) => {
     let lineCount = 0;
     const lines = [];
 
+    // Adds line coordinates and increments the line count
     const addHighlight = (coords, char) => {
       lineCount++;
       lines.push({ coords, char });
@@ -143,6 +145,7 @@ export default function Board() {
     return { lineCount, lines };
   };
 
+  // Handles user clicks, updates the board, and checks for lines
   const handleClick = (row, col) => {
     if (board[row][col] !== null) return;
 
@@ -168,6 +171,7 @@ export default function Board() {
     }
   };
 
+  // Resets the board and game state
   const resetGame = () => {
     setBoard(Array(5).fill().map(() => Array(5).fill(null)));
     setCurrentTurn(0);
